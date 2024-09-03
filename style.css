@@ -1,0 +1,74 @@
+#navbar
+{
+    display:flex;
+    flex-direction: column;
+}
+#navbar1{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 15px 25px 15px;
+    background-color: rgb(248, 41, 72);
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+
+}
+#navbar2
+{
+    display:flex;
+    justify-content: space-between;
+    padding: 15px 25px 15px 25px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: white;
+
+}
+.bckgrd
+{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.bckgrd img
+{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+#textimg
+{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    color: white;
+}
+#text1
+{
+    font-size: 40px;
+}
+#text2
+{
+    font-size: 20px;
+}
+.pages a{
+    text-decoration: none;
+}
+.pages a:hover{
+
+    text-decoration: underline;
+}
+.shopcontainer
+{
+   position: relative;
+   width: 100%;
+   display:flex;
+   justify-content:space-around;
+   align-items: center;
+}
+.shopcontainer img
+{
+    width: 30%;
+    height: 80%;
+    object-fit: cover;
+    
+}
